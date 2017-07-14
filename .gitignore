@@ -19,3 +19,6 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+# Local libraries (already present in cache, so don't use)
+libs/

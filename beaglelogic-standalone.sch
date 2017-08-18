@@ -4111,9 +4111,9 @@ F 3 "" H 2600 12500 50  0001 C CNN
 	1    2600 12500
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1550 12300 0    50   Input ~ 0
-USB0_DP
 Text GLabel 1550 12400 0    50   Input ~ 0
+USB0_DP
+Text GLabel 1550 12300 0    50   Input ~ 0
 USB0_DM
 Text GLabel 1550 12500 0    50   Input ~ 0
 USB0_ID

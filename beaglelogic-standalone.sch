@@ -49,7 +49,7 @@ U 1 1 595F3B21
 P 2950 900
 F 0 "U6" H 4150 1190 60  0000 C CNN
 F 1 "OSD3358-SM" H 4150 1084 60  0000 C CNN
-F 2 "beaglelogic-standalone:BGA-400-1-27mm" H 2950 900 60  0001 C CNN
+F 2 "beaglelogic-standalone:BGA-256-1-27mm" H 2950 900 60  0001 C CNN
 F 3 "" H 2950 900 60  0001 C CNN
 	1    2950 900 
 	1    0    0    -1  
@@ -60,7 +60,7 @@ U 2 1 595F3D74
 P 6900 1100
 F 0 "U6" H 7700 1390 60  0000 C CNN
 F 1 "OSD3358-SM" H 7700 1284 60  0000 C CNN
-F 2 "beaglelogic-standalone:BGA-400-1-27mm" H 6900 1100 60  0001 C CNN
+F 2 "beaglelogic-standalone:BGA-256-1-27mm" H 6900 1100 60  0001 C CNN
 F 3 "" H 6900 1100 60  0001 C CNN
 	2    6900 1100
 	1    0    0    -1  
@@ -71,7 +71,7 @@ U 3 1 595F3E11
 P 9300 2650
 F 0 "U6" H 10200 2940 60  0000 C CNN
 F 1 "OSD3358-SM" H 10200 2834 60  0000 C CNN
-F 2 "beaglelogic-standalone:BGA-400-1-27mm" H 9300 2650 60  0001 C CNN
+F 2 "beaglelogic-standalone:BGA-256-1-27mm" H 9300 2650 60  0001 C CNN
 F 3 "" H 9300 2650 60  0001 C CNN
 	3    9300 2650
 	1    0    0    -1  
@@ -82,7 +82,7 @@ U 4 1 595F3EC8
 P 11800 5900
 F 0 "U6" H 12505 6190 60  0000 C CNN
 F 1 "OSD3358-SM" H 12505 6084 60  0000 C CNN
-F 2 "beaglelogic-standalone:BGA-400-1-27mm" H 11800 5900 60  0001 C CNN
+F 2 "beaglelogic-standalone:BGA-256-1-27mm" H 11800 5900 60  0001 C CNN
 F 3 "" H 11800 5900 60  0001 C CNN
 	4    11800 5900
 	1    0    0    -1  
@@ -93,7 +93,7 @@ U 5 1 595F3F3D
 P 9150 5150
 F 0 "U6" H 10200 5440 60  0000 C CNN
 F 1 "OSD3358-SM" H 10200 5334 60  0000 C CNN
-F 2 "beaglelogic-standalone:BGA-400-1-27mm" H 9150 5150 60  0001 C CNN
+F 2 "beaglelogic-standalone:BGA-256-1-27mm" H 9150 5150 60  0001 C CNN
 F 3 "" H 9150 5150 60  0001 C CNN
 	5    9150 5150
 	1    0    0    -1  
@@ -104,7 +104,7 @@ U 6 1 595F3FAB
 P 20450 9850
 F 0 "U6" H 21600 10050 60  0000 C CNN
 F 1 "OSD3358-SM" H 21600 9950 60  0000 C CNN
-F 2 "beaglelogic-standalone:BGA-400-1-27mm" H 20450 9850 60  0001 C CNN
+F 2 "beaglelogic-standalone:BGA-256-1-27mm" H 20450 9850 60  0001 C CNN
 F 3 "" H 20450 9850 60  0001 C CNN
 	6    20450 9850
 	-1   0    0    -1  
@@ -115,7 +115,7 @@ U 7 1 595F4076
 P 9300 850
 F 0 "U6" H 10200 1140 60  0000 C CNN
 F 1 "OSD3358-SM" H 10200 1034 60  0000 C CNN
-F 2 "beaglelogic-standalone:BGA-400-1-27mm" H 9300 850 60  0001 C CNN
+F 2 "beaglelogic-standalone:BGA-256-1-27mm" H 9300 850 60  0001 C CNN
 F 3 "" H 9300 850 60  0001 C CNN
 	7    9300 850 
 	1    0    0    -1  
@@ -126,7 +126,7 @@ U 8 1 595F4122
 P 11150 6450
 F 0 "U6" H 12050 6750 60  0000 C CNN
 F 1 "OSD3358-SM" H 12050 6650 60  0000 C CNN
-F 2 "beaglelogic-standalone:BGA-400-1-27mm" H 11150 6450 60  0001 C CNN
+F 2 "beaglelogic-standalone:BGA-256-1-27mm" H 11150 6450 60  0001 C CNN
 F 3 "" H 11150 6450 60  0001 C CNN
 	8    11150 6450
 	-1   0    0    -1  
@@ -137,7 +137,7 @@ U 9 1 595F41D1
 P 18450 12000
 F 0 "U6" H 19205 12290 60  0000 C CNN
 F 1 "OSD3358-SM" H 19205 12184 60  0000 C CNN
-F 2 "beaglelogic-standalone:BGA-400-1-27mm" H 18450 12000 60  0001 C CNN
+F 2 "beaglelogic-standalone:BGA-256-1-27mm" H 18450 12000 60  0001 C CNN
 F 3 "" H 18450 12000 60  0001 C CNN
 	9    18450 12000
 	1    0    0    -1  
@@ -148,7 +148,7 @@ U 10 1 595F4271
 P 21100 9700
 F 0 "U6" H 21800 9990 60  0000 C CNN
 F 1 "OSD3358-SM" H 21800 9884 60  0000 C CNN
-F 2 "beaglelogic-standalone:BGA-400-1-27mm" H 21100 9700 60  0001 C CNN
+F 2 "beaglelogic-standalone:BGA-256-1-27mm" H 21100 9700 60  0001 C CNN
 F 3 "" H 21100 9700 60  0001 C CNN
 	10   21100 9700
 	1    0    0    -1  
@@ -159,7 +159,7 @@ U 11 1 595F50F0
 P 21100 12600
 F 0 "U6" H 21900 12900 60  0000 C CNN
 F 1 "OSD3358-SM" H 21900 12800 60  0000 C CNN
-F 2 "beaglelogic-standalone:BGA-400-1-27mm" H 21100 12600 60  0001 C CNN
+F 2 "beaglelogic-standalone:BGA-256-1-27mm" H 21100 12600 60  0001 C CNN
 F 3 "" H 21100 12600 60  0001 C CNN
 	11   21100 12600
 	1    0    0    -1  
@@ -170,7 +170,7 @@ U 12 1 595F5166
 P 21250 13900
 F 0 "U6" H 21900 14190 60  0000 C CNN
 F 1 "OSD3358-SM" H 21900 14084 60  0000 C CNN
-F 2 "beaglelogic-standalone:BGA-400-1-27mm" H 21250 13900 60  0001 C CNN
+F 2 "beaglelogic-standalone:BGA-256-1-27mm" H 21250 13900 60  0001 C CNN
 F 3 "" H 21250 13900 60  0001 C CNN
 	12   21250 13900
 	1    0    0    -1  
@@ -483,9 +483,9 @@ F 3 "" H 18350 7900 60  0001 C CNN
 	1    18350 7900
 	1    0    0    -1  
 $EndComp
-Text Label 17300 5800 0    50   ~ 0
+Text Label 17300 7900 0    50   ~ 0
 DIN00
-Text Label 17300 5900 0    50   ~ 0
+Text Label 17300 7800 0    50   ~ 0
 DIN01
 Text Label 21950 5650 2    50   ~ 0
 IN00
@@ -1211,33 +1211,33 @@ Text Label 21500 8200 0    50   ~ 0
 IN15
 Text Label 20200 5500 0    50   ~ 0
 IN02
-Text Label 17300 6100 0    50   ~ 0
-DIN02
-Text Label 17300 6200 0    50   ~ 0
-DIN03
-Text Label 17300 6400 0    50   ~ 0
-DIN04
-Text Label 17300 6500 0    50   ~ 0
-DIN05
-Text Label 17300 6700 0    50   ~ 0
-DIN06
-Text Label 17300 6800 0    50   ~ 0
-DIN07
-Text Label 17300 6900 0    50   ~ 0
-DIN08
-Text Label 17300 7000 0    50   ~ 0
-DIN09
-Text Label 17300 7200 0    50   ~ 0
-DIN10
-Text Label 17300 7300 0    50   ~ 0
-DIN11
-Text Label 17300 7500 0    50   ~ 0
-DIN12
 Text Label 17300 7600 0    50   ~ 0
+DIN02
+Text Label 17300 7500 0    50   ~ 0
+DIN03
+Text Label 17300 7300 0    50   ~ 0
+DIN04
+Text Label 17300 7200 0    50   ~ 0
+DIN05
+Text Label 17300 7000 0    50   ~ 0
+DIN06
+Text Label 17300 6900 0    50   ~ 0
+DIN07
+Text Label 17300 6800 0    50   ~ 0
+DIN08
+Text Label 17300 6700 0    50   ~ 0
+DIN09
+Text Label 17300 6500 0    50   ~ 0
+DIN10
+Text Label 17300 6400 0    50   ~ 0
+DIN11
+Text Label 17300 6200 0    50   ~ 0
+DIN12
+Text Label 17300 6100 0    50   ~ 0
 DIN13
-Text Label 17300 7800 0    50   ~ 0
+Text Label 17300 5900 0    50   ~ 0
 DIN14
-Text Label 17300 7900 0    50   ~ 0
+Text Label 17300 5800 0    50   ~ 0
 DIN15
 Text Label 19350 4950 2    50   ~ 0
 DIN00
@@ -1617,37 +1617,37 @@ F 3 "" H 16950 8450 50  0001 C CNN
 	1    16950 8450
 	1    0    0    -1  
 $EndComp
-Text Label 15200 5800 2    50   ~ 0
-PRU1_IN00
-Text Label 15200 5900 2    50   ~ 0
-PRU1_IN01
-Text Label 15200 6100 2    50   ~ 0
-PRU1_IN02
-Text Label 15200 6200 2    50   ~ 0
-PRU1_IN03
-Text Label 15200 6400 2    50   ~ 0
-PRU1_IN04
-Text Label 15200 6500 2    50   ~ 0
-PRU1_IN05
-Text Label 15200 6700 2    50   ~ 0
-PRU1_IN06
-Text Label 15200 6800 2    50   ~ 0
-PRU1_IN07
-Text Label 15200 6900 2    50   ~ 0
-PRU1_IN08
-Text Label 15200 7000 2    50   ~ 0
-PRU1_IN09
-Text Label 15200 7200 2    50   ~ 0
-PRU1_IN10
-Text Label 15200 7300 2    50   ~ 0
-PRU1_IN11
-Text Label 15200 7500 2    50   ~ 0
-PRU1_IN12
-Text Label 15200 7600 2    50   ~ 0
-PRU1_IN13
-Text Label 15200 7800 2    50   ~ 0
-PRU1_IN14
 Text Label 15200 7900 2    50   ~ 0
+PRU1_IN00
+Text Label 15200 7800 2    50   ~ 0
+PRU1_IN01
+Text Label 15200 7600 2    50   ~ 0
+PRU1_IN02
+Text Label 15200 7500 2    50   ~ 0
+PRU1_IN03
+Text Label 15200 7300 2    50   ~ 0
+PRU1_IN04
+Text Label 15200 7200 2    50   ~ 0
+PRU1_IN05
+Text Label 15200 7000 2    50   ~ 0
+PRU1_IN06
+Text Label 15200 6900 2    50   ~ 0
+PRU1_IN07
+Text Label 15200 6800 2    50   ~ 0
+PRU1_IN08
+Text Label 15200 6700 2    50   ~ 0
+PRU1_IN09
+Text Label 15200 6500 2    50   ~ 0
+PRU1_IN10
+Text Label 15200 6400 2    50   ~ 0
+PRU1_IN11
+Text Label 15200 6200 2    50   ~ 0
+PRU1_IN12
+Text Label 15200 6100 2    50   ~ 0
+PRU1_IN13
+Text Label 15200 5900 2    50   ~ 0
+PRU1_IN14
+Text Label 15200 5800 2    50   ~ 0
 PRU1_IN15
 $Comp
 L GND #PWR029
@@ -4072,7 +4072,7 @@ F 3 "" H 6150 10300 50  0001 C CNN
 $EndComp
 Text Label 4500 10400 0    50   ~ 0
 D_RX
-Text Label 4500 10500 0    50   ~ 0
+Text Label 4550 10500 0    50   ~ 0
 D_TX
 Text Label 5900 10500 0    50   ~ 0
 UART4_RXD
@@ -4482,6 +4482,91 @@ F 3 "" H 1850 1350 50  0001 C CNN
 $EndComp
 Text GLabel 1850 1150 2    50   BiDi ~ 0
 TS
+Text GLabel 6950 800  2    50   BiDi ~ 0
+TRSTn
+Text GLabel 8150 2400 2    50   BiDi ~ 0
+TRSTn
+$Comp
+L GND #PWR095
+U 1 1 597FE54F
+P 7650 2500
+F 0 "#PWR095" H 7650 2250 50  0001 C CNN
+F 1 "GND" H 7655 2327 50  0000 C CNN
+F 2 "" H 7650 2500 50  0001 C CNN
+F 3 "" H 7650 2500 50  0001 C CNN
+	1    7650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R41
+U 1 1 597FF982
+P 7900 2400
+F 0 "R41" V 7800 2400 50  0000 C CNN
+F 1 "4.87K" V 7900 2400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 7830 2400 50  0001 C CNN
+F 3 "" H 7900 2400 50  0001 C CNN
+	1    7900 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R33
+U 1 1 59920C07
+P 6300 3400
+F 0 "R33" V 6250 3650 50  0000 R CNN
+F 1 "1.5K" V 6300 3500 50  0000 R CNN
+F 2 "Resistors_SMD:R_0402" V 6230 3400 50  0001 C CNN
+F 3 "" H 6300 3400 50  0001 C CNN
+	1    6300 3400
+	1    0    0    1   
+$EndComp
+$Comp
+L R R40
+U 1 1 59920C0D
+P 6400 3400
+F 0 "R40" V 6350 3650 50  0000 R CNN
+F 1 "1.5K" V 6400 3500 50  0000 R CNN
+F 2 "Resistors_SMD:R_0402" V 6330 3400 50  0001 C CNN
+F 3 "" H 6400 3400 50  0001 C CNN
+	1    6400 3400
+	1    0    0    1   
+$EndComp
+$Comp
+L +3.3V #PWR096
+U 1 1 59920C15
+P 6400 3100
+F 0 "#PWR096" H 6400 2950 50  0001 C CNN
+F 1 "+3.3V" H 6415 3273 50  0000 C CNN
+F 2 "" H 6400 3100 50  0001 C CNN
+F 3 "" H 6400 3100 50  0001 C CNN
+	1    6400 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 6300 3900 3    50   BiDi ~ 0
+I2C0_SCL
+Text GLabel 6400 3900 3    50   BiDi ~ 0
+I2C0_SDA
+$Comp
+L TEST_1P TP6
+U 1 1 5993DBE7
+P 6500 3700
+F 0 "TP6" V 6450 3750 50  0000 C CNN
+F 1 "I2C0_SCL" V 6500 4050 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6700 3700 50  0001 C CNN
+F 3 "" H 6700 3700 50  0001 C CNN
+	1    6500 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST_1P TP7
+U 1 1 5993DE13
+P 6500 3800
+F 0 "TP7" V 6450 3850 50  0000 C CNN
+F 1 "I2C0_SDA" V 6500 4150 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6700 3800 50  0001 C CNN
+F 3 "" H 6700 3800 50  0001 C CNN
+	1    6500 3800
+	0    1    1    0   
+$EndComp
 Wire Wire Line
 	15500 5700 15600 5700
 Wire Wire Line
@@ -4655,8 +4740,6 @@ Wire Wire Line
 	15300 5150 15300 7400
 Wire Wire Line
 	15300 7400 15600 7400
-Wire Wire Line
-	18700 7400 16900 7400
 Wire Wire Line
 	17200 6300 16900 6300
 Wire Wire Line
@@ -5103,8 +5186,6 @@ Wire Wire Line
 Connection ~ 16050 5100
 Wire Wire Line
 	17200 4100 17200 7400
-Connection ~ 18700 7400
-Connection ~ 17200 7400
 Wire Wire Line
 	16050 4750 16050 4700
 Connection ~ 16800 5350
@@ -7022,32 +7103,6 @@ Wire Wire Line
 	6800 1500 6800 800 
 Wire Wire Line
 	6800 800  6950 800 
-Text GLabel 6950 800  2    50   BiDi ~ 0
-TRSTn
-Text GLabel 8150 2400 2    50   BiDi ~ 0
-TRSTn
-$Comp
-L GND #PWR095
-U 1 1 597FE54F
-P 7650 2500
-F 0 "#PWR095" H 7650 2250 50  0001 C CNN
-F 1 "GND" H 7655 2327 50  0000 C CNN
-F 2 "" H 7650 2500 50  0001 C CNN
-F 3 "" H 7650 2500 50  0001 C CNN
-	1    7650 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R41
-U 1 1 597FF982
-P 7900 2400
-F 0 "R41" V 7800 2400 50  0000 C CNN
-F 1 "4.87K" V 7900 2400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 7830 2400 50  0001 C CNN
-F 3 "" H 7900 2400 50  0001 C CNN
-	1    7900 2400
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7750 2400 7650 2400
 Wire Wire Line
@@ -7061,39 +7116,6 @@ Wire Wire Line
 	5600 3700 5600 3850
 Wire Wire Line
 	5600 3850 5750 3850
-$Comp
-L R R33
-U 1 1 59920C07
-P 6300 3400
-F 0 "R33" V 6250 3650 50  0000 R CNN
-F 1 "1.5K" V 6300 3500 50  0000 R CNN
-F 2 "Resistors_SMD:R_0402" V 6230 3400 50  0001 C CNN
-F 3 "" H 6300 3400 50  0001 C CNN
-	1    6300 3400
-	1    0    0    1   
-$EndComp
-$Comp
-L R R40
-U 1 1 59920C0D
-P 6400 3400
-F 0 "R40" V 6350 3650 50  0000 R CNN
-F 1 "1.5K" V 6400 3500 50  0000 R CNN
-F 2 "Resistors_SMD:R_0402" V 6330 3400 50  0001 C CNN
-F 3 "" H 6400 3400 50  0001 C CNN
-	1    6400 3400
-	1    0    0    1   
-$EndComp
-$Comp
-L +3.3V #PWR096
-U 1 1 59920C15
-P 6400 3100
-F 0 "#PWR096" H 6400 2950 50  0001 C CNN
-F 1 "+3.3V" H 6415 3273 50  0000 C CNN
-F 2 "" H 6400 3100 50  0001 C CNN
-F 3 "" H 6400 3100 50  0001 C CNN
-	1    6400 3100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6300 3550 6300 3900
 Wire Wire Line
@@ -7105,36 +7127,14 @@ Wire Wire Line
 Wire Wire Line
 	6300 3200 6400 3200
 Connection ~ 6400 3200
-Text GLabel 6300 3900 3    50   BiDi ~ 0
-I2C0_SCL
-Text GLabel 6400 3900 3    50   BiDi ~ 0
-I2C0_SDA
-$Comp
-L TEST_1P TP6
-U 1 1 5993DBE7
-P 6500 3700
-F 0 "TP6" V 6450 3750 50  0000 C CNN
-F 1 "I2C0_SCL" V 6500 4050 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6700 3700 50  0001 C CNN
-F 3 "" H 6700 3700 50  0001 C CNN
-	1    6500 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L TEST_1P TP7
-U 1 1 5993DE13
-P 6500 3800
-F 0 "TP7" V 6450 3850 50  0000 C CNN
-F 1 "I2C0_SDA" V 6500 4150 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6700 3800 50  0001 C CNN
-F 3 "" H 6700 3800 50  0001 C CNN
-	1    6500 3800
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6500 3700 6300 3700
 Connection ~ 6300 3700
 Wire Wire Line
 	6500 3800 6400 3800
 Connection ~ 6400 3800
+Wire Wire Line
+	16900 7400 18700 7400
+Connection ~ 17200 7400
+Connection ~ 18700 7400
 $EndSCHEMATC

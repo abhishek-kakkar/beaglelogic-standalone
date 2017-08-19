@@ -2330,9 +2330,9 @@ MMC0_CLK
 Text Label 9100 5550 2    50   ~ 0
 MMC0_CD
 Text GLabel 1200 11900 2    50   Input ~ 0
-USB0_DM
+USB0_D-
 Text GLabel 1200 11800 2    50   Input ~ 0
-USB0_DP
+USB0_D+
 $Comp
 L Ferrite_Bead L3
 U 1 1 596CF988
@@ -2481,9 +2481,9 @@ F 3 "" H 2850 10100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 3000 10500 0    50   Input ~ 0
-USB1_DP
+USB1_D+
 Text GLabel 3000 10600 0    50   Input ~ 0
-USB1_DM
+USB1_D-
 Text GLabel 3200 9900 2    50   Input ~ 0
 USB1_VBUS
 $Comp
@@ -2522,9 +2522,9 @@ $EndComp
 Text GLabel 9200 1350 0    50   Input ~ 0
 USB1_VBUS
 Text GLabel 9200 1450 0    50   Input ~ 0
-USB1_DP
+USB1_D+
 Text GLabel 9200 1550 0    50   Input ~ 0
-USB1_DM
+USB1_D-
 $Comp
 L GND #PWR051
 U 1 1 59732705
@@ -2537,9 +2537,9 @@ F 3 "" H 8650 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 11200 850  2    50   Input ~ 0
-USB0_DM
+USB0_D-
 Text GLabel 11200 950  2    50   Input ~ 0
-USB0_DP
+USB0_D+
 Text GLabel 11200 1150 2    50   Input ~ 0
 USB0_ID
 Text GLabel 11200 1050 2    50   Input ~ 0
@@ -4112,9 +4112,9 @@ F 3 "" H 2600 12500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 1550 12400 0    50   Input ~ 0
-USB0_DP
+USB0_D+
 Text GLabel 1550 12300 0    50   Input ~ 0
-USB0_DM
+USB0_D-
 Text GLabel 1550 12500 0    50   Input ~ 0
 USB0_ID
 Text GLabel 2550 12300 2    50   Input ~ 0
@@ -4131,9 +4131,9 @@ F 3 "" H 2550 11750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2500 11750 0    50   Input ~ 0
-USB1_DP
+USB1_D+
 Text GLabel 2500 11850 0    50   Input ~ 0
-USB1_DM
+USB1_D-
 $Comp
 L GND #PWR086
 U 1 1 597215C7
@@ -7137,4 +7137,20 @@ Wire Wire Line
 	16900 7400 18700 7400
 Connection ~ 17200 7400
 Connection ~ 18700 7400
+Text Label 4850 7300 0    50   ~ 0
+TRD1+
+Text Label 4850 7400 0    50   ~ 0
+TRD1-
+Text Label 4850 7500 0    50   ~ 0
+TRD2+
+Text Label 4850 7600 0    50   ~ 0
+TRD2-
+Text Label 4850 7700 0    50   ~ 0
+TRD3+
+Text Label 4850 7800 0    50   ~ 0
+TRD3-
+Text Label 4850 7900 0    50   ~ 0
+TRD4+
+Text Label 4850 8000 0    50   ~ 0
+TRD4-
 $EndSCHEMATC

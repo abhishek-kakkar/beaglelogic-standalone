@@ -28,6 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:mechanical
+LIBS:graphic_symbols
 LIBS:beaglelogic-standalone-cache
 EELAYER 26 0
 EELAYER END
@@ -178,13 +180,13 @@ $EndComp
 $Comp
 L R_Pack04 RN1
 U 1 1 5961EA54
-P 13400 5550
-F 0 "RN1" H 13120 5504 50  0000 R CNN
-F 1 "100K" H 13120 5595 50  0000 R CNN
-F 2 "Resistors_SMD:R_Array_Concave_4x0402" V 13675 5550 50  0001 C CNN
-F 3 "" H 13400 5550 50  0001 C CNN
-	1    13400 5550
-	-1   0    0    1   
+P 13500 5550
+F 0 "RN1" H 13220 5504 50  0000 R CNN
+F 1 "100K" H 13220 5595 50  0000 R CNN
+F 2 "Resistors_SMD:R_Array_Concave_4x0402" V 13775 5550 50  0001 C CNN
+F 3 "" H 13500 5550 50  0001 C CNN
+	1    13500 5550
+	1    0    0    1   
 $EndComp
 $Comp
 L 74LVCH16245 U13
@@ -483,9 +485,9 @@ F 3 "" H 18350 7900 60  0001 C CNN
 	1    18350 7900
 	1    0    0    -1  
 $EndComp
-Text Label 17300 7900 0    50   ~ 0
+Text Label 17300 5800 0    50   ~ 0
 DIN00
-Text Label 17300 7800 0    50   ~ 0
+Text Label 17300 5900 0    50   ~ 0
 DIN01
 Text Label 21950 5650 2    50   ~ 0
 IN00
@@ -1211,33 +1213,33 @@ Text Label 21500 8200 0    50   ~ 0
 IN15
 Text Label 20200 5500 0    50   ~ 0
 IN02
-Text Label 17300 7600 0    50   ~ 0
-DIN02
-Text Label 17300 7500 0    50   ~ 0
-DIN03
-Text Label 17300 7300 0    50   ~ 0
-DIN04
-Text Label 17300 7200 0    50   ~ 0
-DIN05
-Text Label 17300 7000 0    50   ~ 0
-DIN06
-Text Label 17300 6900 0    50   ~ 0
-DIN07
-Text Label 17300 6800 0    50   ~ 0
-DIN08
-Text Label 17300 6700 0    50   ~ 0
-DIN09
-Text Label 17300 6500 0    50   ~ 0
-DIN10
-Text Label 17300 6400 0    50   ~ 0
-DIN11
-Text Label 17300 6200 0    50   ~ 0
-DIN12
 Text Label 17300 6100 0    50   ~ 0
+DIN02
+Text Label 17300 6200 0    50   ~ 0
+DIN03
+Text Label 17300 6400 0    50   ~ 0
+DIN04
+Text Label 17300 6500 0    50   ~ 0
+DIN05
+Text Label 17300 6700 0    50   ~ 0
+DIN06
+Text Label 17300 6800 0    50   ~ 0
+DIN07
+Text Label 17300 6900 0    50   ~ 0
+DIN08
+Text Label 17300 7000 0    50   ~ 0
+DIN09
+Text Label 17300 7200 0    50   ~ 0
+DIN10
+Text Label 17300 7300 0    50   ~ 0
+DIN11
+Text Label 17300 7500 0    50   ~ 0
+DIN12
+Text Label 17300 7600 0    50   ~ 0
 DIN13
-Text Label 17300 5900 0    50   ~ 0
+Text Label 17300 7800 0    50   ~ 0
 DIN14
-Text Label 17300 5800 0    50   ~ 0
+Text Label 17300 7900 0    50   ~ 0
 DIN15
 Text Label 19350 4950 2    50   ~ 0
 DIN00
@@ -1617,37 +1619,37 @@ F 3 "" H 16950 8450 50  0001 C CNN
 	1    16950 8450
 	1    0    0    -1  
 $EndComp
-Text Label 15200 7900 2    50   ~ 0
-PRU1_IN00
-Text Label 15200 7800 2    50   ~ 0
-PRU1_IN01
-Text Label 15200 7600 2    50   ~ 0
-PRU1_IN02
-Text Label 15200 7500 2    50   ~ 0
-PRU1_IN03
-Text Label 15200 7300 2    50   ~ 0
-PRU1_IN04
-Text Label 15200 7200 2    50   ~ 0
-PRU1_IN05
-Text Label 15200 7000 2    50   ~ 0
-PRU1_IN06
-Text Label 15200 6900 2    50   ~ 0
-PRU1_IN07
-Text Label 15200 6800 2    50   ~ 0
-PRU1_IN08
-Text Label 15200 6700 2    50   ~ 0
-PRU1_IN09
-Text Label 15200 6500 2    50   ~ 0
-PRU1_IN10
-Text Label 15200 6400 2    50   ~ 0
-PRU1_IN11
-Text Label 15200 6200 2    50   ~ 0
-PRU1_IN12
-Text Label 15200 6100 2    50   ~ 0
-PRU1_IN13
-Text Label 15200 5900 2    50   ~ 0
-PRU1_IN14
 Text Label 15200 5800 2    50   ~ 0
+PRU1_IN00
+Text Label 15200 5900 2    50   ~ 0
+PRU1_IN01
+Text Label 15200 6100 2    50   ~ 0
+PRU1_IN02
+Text Label 15200 6200 2    50   ~ 0
+PRU1_IN03
+Text Label 15200 6400 2    50   ~ 0
+PRU1_IN04
+Text Label 15200 6500 2    50   ~ 0
+PRU1_IN05
+Text Label 15200 6700 2    50   ~ 0
+PRU1_IN06
+Text Label 15200 6800 2    50   ~ 0
+PRU1_IN07
+Text Label 15200 6900 2    50   ~ 0
+PRU1_IN08
+Text Label 15200 7000 2    50   ~ 0
+PRU1_IN09
+Text Label 15200 7200 2    50   ~ 0
+PRU1_IN10
+Text Label 15200 7300 2    50   ~ 0
+PRU1_IN11
+Text Label 15200 7500 2    50   ~ 0
+PRU1_IN12
+Text Label 15200 7600 2    50   ~ 0
+PRU1_IN13
+Text Label 15200 7800 2    50   ~ 0
+PRU1_IN14
+Text Label 15200 7900 2    50   ~ 0
 PRU1_IN15
 $Comp
 L GND #PWR029
@@ -1819,17 +1821,6 @@ F 1 "GND" H 1505 2077 50  0000 C CNN
 F 2 "" H 1500 2250 50  0001 C CNN
 F 3 "" H 1500 2250 50  0001 C CNN
 	1    1500 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P TP1
-U 1 1 5976DB01
-P 2550 850
-F 0 "TP1" H 2608 970 50  0000 L CNN
-F 1 "5V" H 2608 879 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2750 850 50  0001 C CNN
-F 3 "" H 2750 850 50  0001 C CNN
-	1    2550 850 
 	1    0    0    -1  
 $EndComp
 Text GLabel 1400 3450 0    50   BiDi ~ 0
@@ -3933,7 +3924,7 @@ F 3 "" H 4250 10350 50  0001 C CNN
 	1    4250 10350
 	-1   0    0    -1  
 $EndComp
-Text Label 7050 5150 2    50   ~ 0
+Text Label 7650 5150 0    50   ~ 0
 UART1_RXD
 Text Label 11200 2050 0    50   ~ 0
 UART1_RXD
@@ -3943,11 +3934,11 @@ Text Label 9250 8550 2    50   ~ 0
 UART4_RXD
 Text Label 9250 7750 2    50   ~ 0
 UART4_TXD
-Text Label 7650 5150 0    50   ~ 0
+Text Label 7050 5150 2    50   ~ 0
 UART1_TXD
-Text Label 7650 5250 0    50   ~ 0
-I2C2_SDA
 Text Label 7050 5250 2    50   ~ 0
+I2C2_SDA
+Text Label 7650 5250 0    50   ~ 0
 I2C2_SCL
 Text Label 7050 5350 2    50   ~ 0
 EQEP0_A
@@ -5406,7 +5397,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 900  2850 1100
 Wire Wire Line
-	2550 900  2950 900 
+	2750 900  2950 900 
 Wire Wire Line
 	2950 1300 2850 1300
 Wire Wire Line
@@ -5499,8 +5490,6 @@ Wire Wire Line
 	1650 2100 1500 2100
 Wire Wire Line
 	1500 2100 1500 2250
-Wire Wire Line
-	2550 850  2550 900 
 Connection ~ 2850 900 
 Wire Wire Line
 	1400 3450 1450 3450
@@ -7135,8 +7124,6 @@ Wire Wire Line
 Connection ~ 6400 3800
 Wire Wire Line
 	16900 7400 18700 7400
-Connection ~ 17200 7400
-Connection ~ 18700 7400
 Text Label 4850 7300 0    50   ~ 0
 TRD1+
 Text Label 4850 7400 0    50   ~ 0
@@ -7153,4 +7140,103 @@ Text Label 4850 7900 0    50   ~ 0
 TRD4+
 Text Label 4850 8000 0    50   ~ 0
 TRD4-
+Connection ~ 18700 7400
+Connection ~ 17200 7400
+$Comp
+L Mounting_Hole M1
+U 1 1 59A18719
+P 4550 11750
+F 0 "M1" H 4550 11895 50  0000 C CNN
+F 1 "TEST_1P" H 4608 11779 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 4750 11750 50  0001 C CNN
+F 3 "" H 4750 11750 50  0001 C CNN
+	1    4550 11750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole M2
+U 1 1 59A1A3C5
+P 4750 11750
+F 0 "M2" H 4750 11895 50  0000 C CNN
+F 1 "TEST_1P" H 4808 11779 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 4950 11750 50  0001 C CNN
+F 3 "" H 4950 11750 50  0001 C CNN
+	1    4750 11750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mounting_Hole M3
+U 1 1 59A1A5E5
+P 4950 11750
+F 0 "M3" H 4950 11895 50  0000 C CNN
+F 1 "TEST_1P" H 5008 11779 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 5150 11750 50  0001 C CNN
+F 3 "" H 5150 11750 50  0001 C CNN
+	1    4950 11750
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4100 11300 4100 12700
+Wire Notes Line
+	4100 12700 6500 12700
+Wire Notes Line
+	6500 12700 6500 11300
+Wire Notes Line
+	6500 11300 4100 11300
+Text Notes 4950 12600 0    118  ~ 24
+Mounting holes\n
+$Comp
+L Mounting_Hole LOGO1
+U 1 1 59A1CFE2
+P 5500 11750
+F 0 "LOGO1" H 5600 11750 50  0000 L CNN
+F 1 "TEST_1P" H 5558 11779 50  0001 L CNN
+F 2 "beaglelogic-standalone:beaglelogic-logo" H 5700 11750 50  0001 C CNN
+F 3 "" H 5700 11750 50  0001 C CNN
+	1    5500 11750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Barrel_Jack J8
+U 1 1 59A1E8AF
+P 950 1700
+F 0 "J8" H 1028 2025 50  0000 C CNN
+F 1 "Barrel_Jack" H 1028 1934 50  0000 C CNN
+F 2 "Connect:BARREL_JACK" H 1000 1660 50  0001 C CNN
+F 3 "" H 1000 1660 50  0001 C CNN
+	1    950  1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR097
+U 1 1 59A224A3
+P 1350 1850
+F 0 "#PWR097" H 1350 1600 50  0001 C CNN
+F 1 "GND" H 1355 1677 50  0000 C CNN
+F 2 "" H 1350 1850 50  0001 C CNN
+F 3 "" H 1350 1850 50  0001 C CNN
+	1    1350 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1800 1350 1800
+Wire Wire Line
+	1350 1800 1350 1850
+Text GLabel 2750 900  0    50   BiDi ~ 0
+5V_IN
+Text GLabel 1350 1600 2    50   BiDi ~ 0
+5V_IN
+Wire Wire Line
+	1350 1600 1250 1600
+$Comp
+L Mounting_Hole M4
+U 1 1 59A3557F
+P 5150 11750
+F 0 "M4" H 5150 11895 50  0000 C CNN
+F 1 "TEST_1P" H 5208 11779 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 5350 11750 50  0001 C CNN
+F 3 "" H 5350 11750 50  0001 C CNN
+	1    5150 11750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

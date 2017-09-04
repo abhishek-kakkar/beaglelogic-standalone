@@ -4324,7 +4324,7 @@ GPIO3_21
 Text Label 9200 6550 2    50   ~ 0
 GPIO_OE
 Text Label 9200 7200 2    50   ~ 0
-EMMC_RESETn
+EMMC_RSTn
 Text Label 12550 2700 2    50   ~ 0
 SPIF_CS
 $Comp

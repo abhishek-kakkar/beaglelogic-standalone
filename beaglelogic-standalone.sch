@@ -1284,35 +1284,35 @@ F 3 "" H 18000 8300 50  0001 C CNN
 	1    18000 8300
 	1    0    0    -1  
 $EndComp
-Text Label 17900 5150 2    50   ~ 0
+Text Label 18800 5450 0    50   ~ 0
 DIN00
 Text Label 18800 5150 0    50   ~ 0
 DIN01
 Text Label 17900 5450 2    50   ~ 0
 DIN02
-Text Label 18800 5450 0    50   ~ 0
+Text Label 17900 5150 2    50   ~ 0
 DIN03
-Text Label 17900 6000 2    50   ~ 0
+Text Label 18800 6300 0    50   ~ 0
 DIN04
 Text Label 18800 6000 0    50   ~ 0
 DIN05
 Text Label 17900 6300 2    50   ~ 0
 DIN06
-Text Label 18800 6300 0    50   ~ 0
+Text Label 17900 6000 2    50   ~ 0
 DIN07
-Text Label 17900 6850 2    50   ~ 0
+Text Label 18800 7150 0    50   ~ 0
 DIN08
 Text Label 18800 6850 0    50   ~ 0
 DIN09
 Text Label 17900 7150 2    50   ~ 0
 DIN10
-Text Label 18800 7150 0    50   ~ 0
+Text Label 17900 6850 2    50   ~ 0
 DIN11
-Text Label 17900 7750 2    50   ~ 0
+Text Label 18800 8050 0    50   ~ 0
 DIN12
 Text Label 18800 7750 0    50   ~ 0
 DIN13
-Text Label 18800 8050 0    50   ~ 0
+Text Label 17900 7750 2    50   ~ 0
 DIN15
 Text Label 17900 8050 2    50   ~ 0
 DIN14
@@ -1554,12 +1554,12 @@ $EndComp
 $Comp
 L GND #PWR026
 U 1 1 59699004
-P 15000 5400
-F 0 "#PWR026" H 15000 5150 50  0001 C CNN
-F 1 "GND" H 15005 5227 50  0000 C CNN
-F 2 "" H 15000 5400 50  0001 C CNN
-F 3 "" H 15000 5400 50  0001 C CNN
-	1    15000 5400
+P 15000 5550
+F 0 "#PWR026" H 15000 5300 50  0001 C CNN
+F 1 "GND" H 15005 5377 50  0000 C CNN
+F 2 "" H 15000 5550 50  0001 C CNN
+F 3 "" H 15000 5550 50  0001 C CNN
+	1    15000 5550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -5166,7 +5166,7 @@ Wire Wire Line
 Wire Wire Line
 	16700 4950 16700 5350
 Wire Wire Line
-	16400 5350 17100 5350
+	16400 5350 17300 5350
 Wire Wire Line
 	16400 5350 16400 5300
 Connection ~ 16700 5350
@@ -5181,7 +5181,7 @@ Wire Wire Line
 	16050 4750 16050 4700
 Connection ~ 16800 5350
 Wire Wire Line
-	17200 5000 17100 5000
+	17100 5000 17300 5000
 Wire Wire Line
 	17100 5000 17100 5100
 Connection ~ 17200 5000
@@ -5356,7 +5356,7 @@ Wire Wire Line
 	16250 8350 16350 8350
 Connection ~ 15300 5250
 Wire Wire Line
-	15000 5250 15000 5400
+	15000 5250 15000 5550
 Connection ~ 13300 5250
 Wire Wire Line
 	16950 8100 16950 8000
@@ -7239,4 +7239,37 @@ F 3 "" H 5350 11750 50  0001 C CNN
 	1    5150 11750
 	1    0    0    -1  
 $EndComp
+$Comp
+L C_Small C66
+U 1 1 59B026E5
+P 17300 5200
+F 0 "C66" H 17186 5154 50  0000 R CNN
+F 1 "0.1uF" H 17186 5245 50  0000 R CNN
+F 2 "Capacitors_SMD:C_0402" H 17338 5050 50  0001 C CNN
+F 3 "" H 17300 5200 50  0001 C CNN
+	1    17300 5200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	17300 5000 17300 5100
+Wire Wire Line
+	17300 5350 17300 5300
+Connection ~ 17100 5350
+$Comp
+L C_Small C65
+U 1 1 59B047BC
+P 15150 5400
+F 0 "C65" V 14950 5400 50  0000 C CNN
+F 1 "0.1uF" V 15050 5400 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0402" H 15188 5250 50  0001 C CNN
+F 3 "" H 15150 5400 50  0001 C CNN
+	1    15150 5400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15050 5400 15000 5400
+Connection ~ 15000 5400
+Wire Wire Line
+	15250 5400 15300 5400
+Connection ~ 15300 5400
 $EndSCHEMATC

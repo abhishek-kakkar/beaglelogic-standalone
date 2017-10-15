@@ -1,0 +1,4 @@
+# Doc build folders
+_build
+_static
+_templates

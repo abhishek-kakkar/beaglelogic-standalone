@@ -22,3 +22,5 @@ _autosave-*
 
 # Local libraries (already present in cache, so don't use)
 libs/
+ignore/
+gerbers/

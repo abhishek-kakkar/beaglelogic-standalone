@@ -10,8 +10,12 @@ BeagleLogic Standalone
    :maxdepth: 2
    :caption: Contents:
 
-BeagleLogic standalone is a turnkey Logic Analyzer built on top of BeagleLogic
-and powered by the Octavo Systems' OSD3358-SM SiP.
+.. image:: ../beaglelogic-standalone-top.jpg
+
+
+BeagleLogic standalone is a turnkey Logic Analyzer built on top of
+`BeagleLogic <http://beaglelogic.readthedocs.io>`_ and powered by the
+Octavo Systems' OSD3358-SM SiP.
 
 Features:
   * 16 buffered channels @ 100MSa/s - currently up to 5V

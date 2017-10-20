@@ -6,12 +6,11 @@
 BeagleLogic Standalone
 ==================================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+.. note:: If you're interested in pre-ordering one of these units when it
+          becomes available, please sign up
+          `here <https://goo.gl/forms/yqEGdHi0kKeWaJXO2>`_.
 
 .. image:: ../beaglelogic-standalone-top.jpg
-
 
 BeagleLogic standalone is a turnkey Logic Analyzer built on top of
 `BeagleLogic <http://beaglelogic.readthedocs.io>`_ and powered by the
@@ -24,3 +23,10 @@ Features:
   * 4GB eMMC
   * SPI Flash
   * USB Host
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Documentation Contents:
+
+   hardware_architecture
+   errata

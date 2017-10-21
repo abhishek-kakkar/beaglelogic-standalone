@@ -34,5 +34,6 @@ Features:
    expansion_connector
    prototypes
    troubleshooting
+   tech_specs
    errata
    acknowledgements

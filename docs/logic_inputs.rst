@@ -5,6 +5,17 @@ Logic Inputs
 
 (right click on image and select "open in new tab" to view full size)
 
+The logic input channels are labelled 0-15, and are present in the following
+order on the connector when looked at from the front:
+
++----+----+----+----+----+----+
+| 15 | 14 | 13 | ...| 1  | 0  |
++----+----+----+----+----+----+
+| GND| GND| GND| GND| GND| GND|
++----+----+----+----+----+----+
+
+All bottom pins are GND.
+
 The logic inputs are connected to the SoC through a TI SN74LVCH16T245 logic buffer. The
 74LVCH16T245 has two voltage rails. The AM335x side is fixed at 3.3V while the
 logic input side is connected to an LDO that can be configured to output either

@@ -50,3 +50,23 @@ RTC
 There is an MCP79410 RTC on board connected on the I2C0 bus that can keep track
 of time when the board is powered off (after addition of a coin cell that is not
 included by default)
+
+Logic Inputs
+------------
+
+See :doc:`logic_inputs`
+
+Expansion Connector
+--------------------
+
+See :doc:`expansion_connector`
+
+Serial Debug Connector
+----------------------
+
+Unlike the BeagleBone Black family of boards, the serial console on this board
+is on UART4 instead of UART0. Hence u-boot needs to be rebuilt with
+``CONFIG_CONS_INDEX=5`` to get the output of u-boot on the serial console.
+
+The pinout of this 6-pin connector is identical to that of the BeagleBone Black
+and related boards.

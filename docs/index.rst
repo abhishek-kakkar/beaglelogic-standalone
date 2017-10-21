@@ -30,4 +30,5 @@ Features:
 
    hardware_architecture
    logic_inputs
+   expansion_connector
    errata

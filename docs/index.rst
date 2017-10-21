@@ -32,3 +32,4 @@ Features:
    logic_inputs
    expansion_connector
    errata
+   acknowledgements

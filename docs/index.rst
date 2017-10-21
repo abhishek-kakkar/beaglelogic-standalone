@@ -33,5 +33,6 @@ Features:
    logic_inputs
    expansion_connector
    prototypes
+   troubleshooting
    errata
    acknowledgements

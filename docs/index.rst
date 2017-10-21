@@ -25,8 +25,9 @@ Features:
   * USB Host
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Documentation Contents:
 
    hardware_architecture
+   logic_inputs
    errata

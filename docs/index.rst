@@ -28,6 +28,7 @@ Features:
    :maxdepth: 1
    :caption: Documentation Contents:
 
+   getting_started
    hardware_architecture
    logic_inputs
    expansion_connector
